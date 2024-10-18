@@ -1,0 +1,6 @@
+Player:
+  Exit_box: 2
+  Ender_box: 2
+Text:
+  Limit_shulker: "&4У вас шалкеров {count_in_inventory}/{Exit_box} в инвентаре, лишние будут выброшены при выходе."
+  Limit_ender: "#fc0362У вас превышен лимит шалкеров в Сундуке Эндера."

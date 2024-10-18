@@ -1,0 +1,17 @@
+name: EnxitShulker
+version: '1.0.0'
+main: org.dw363.enxitshulker.Main
+api-version: '1.16'
+load: STARTUP
+authors: [dw363]
+description: Плагин, ограничивающий количество шалкер-боксов в инвентаре для выходе и добавляющий лимит для хранения шалкеров в эндер-сундуке. Создано в виде тестового задания.
+website: https://github.com/Hacker123ter
+commands:
+  enxit:
+    description: Перезагружает конфигурацию плагина.
+    usage: /enxit reload
+    permission: enxit.reload
+permissions:
+  enxit.reload:
+    description: Позволяет использовать команду /enxit reload.
+    default: op
