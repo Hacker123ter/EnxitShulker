@@ -1,6 +1,6 @@
 ## EnxitShulker
 
-![Version](https://img.shields.io/badge/Версия-1.0.0-blue.svg)
+![Version](https://img.shields.io/badge/Версия-1.0.1-blue.svg)
 ![API](https://img.shields.io/badge/Paper%201.16.5%2B-blue.svg)
 
 <h3 align="center">Discord: luckytsb</h3>
@@ -14,7 +14,7 @@
 
 ## 🚀 Установка:
 
-- 😧 Скачайте <a href="https://github.com/Hacker123ter/EnxitShulker/raw/refs/heads/EnxitShulker/target/EnxitShulker-1.0.0.jar" target="_blank">EnxitShulker-1.0.0.jar</a>.
+- 😧 Скачайте <a href="https://github.com/Hacker123ter/EnxitShulker/raw/refs/heads/EnxitShulker/target/EnxitShulker-1.0.1.jar" target="_blank">EnxitShulker-1.0.1.jar</a>.
 - 🐈 Переместите его в папку "plugins" вашего сервера. (Убедитесь что Ядро и версия совместимы с плагином)
 - 🪄 Перезапустите сервер.
 - 😸 Радуйтесь жизни!
