@@ -1,5 +1,5 @@
 name: EnxitShulker
-version: '1.0.0'
+version: '1.0.1'
 main: org.dw363.enxitshulker.Main
 api-version: '1.16'
 load: STARTUP

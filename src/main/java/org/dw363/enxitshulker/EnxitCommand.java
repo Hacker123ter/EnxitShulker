@@ -22,7 +22,7 @@ public class EnxitCommand implements CommandExecutor {
                 return true;
             }
 
-            plugin.reloadConfig();
+            plugin.reloadPluginConfig();
             sender.sendMessage(ChatColor.DARK_PURPLE + "EnxitShulker: " + ChatColor.GREEN + "Конфигурация плагина успешно перезагружена.");
             return true;
         }

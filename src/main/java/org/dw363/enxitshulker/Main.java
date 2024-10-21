@@ -60,6 +60,7 @@ public class Main extends JavaPlugin {
     }
 
     public String translateHexColors(String message) {
+        message = message.replaceAll("#([A-Fa-f0-9]{6})", "&#$1");
         Pattern hexPattern = Pattern.compile("&#([A-Fa-f0-9]{6})");
         Matcher matcher = hexPattern.matcher(message);
         StringBuffer buffer = new StringBuffer();
@@ -74,6 +75,7 @@ public class Main extends JavaPlugin {
         matcher.appendTail(buffer);
         return ChatColor.translateAlternateColorCodes('&', buffer.toString());
     }
+
 
     public void sendActionBar(Player player, String message) {
         new BukkitRunnable() {
@@ -129,5 +131,11 @@ public class Main extends JavaPlugin {
             player.getInventory().removeItem(shulkerBox);
             shulkerBoxes.remove(index);
         }
+    }
+
+    public void reloadPluginConfig() {
+        reloadConfig();
+        config = getConfig();
+        getLogger().info("Enxit: Конфигурация успешно перезагружена.");
     }
 }
